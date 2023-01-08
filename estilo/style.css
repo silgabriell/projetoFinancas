@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, rgb(17, 17, 194), rgb(5, 5, 88));
+  background-image: linear-gradient(to bottom, rgb(189, 16, 25), rgb(9, 9, 126));
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -47,14 +47,20 @@ header {
 
 #nubankText {
   background-color: green;
-  position: relative;
+  position: absolute;
   display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 2em;
   height: 200px;
   width: 500px;
   left: 710px;
   top: 35%;
 
   transform: translate(-50%, -50%);
+}
+#nubankText > p {
+  padding-top: 100px;
 }
 
 #c6 {
@@ -67,6 +73,26 @@ header {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   overflow: hidden;
+}
+
+#c6Text {
+  background-color: green;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  
+  height: 200px;
+  width: 500px;
+  left: 710px;
+  top: 80%;
+  
+
+  transform: translate(-50%, -50%);
+}
+#c6Text > p {
+  padding-top: 100px;
 }
 
 #texto {
