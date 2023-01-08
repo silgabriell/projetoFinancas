@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(17, 17, 194), rgb(5, 5, 88));
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.container {
+  
+}
+
+.caixa {
+  position: relative;
+  background-color: white;
+  max-width: 1100px;
+  height: 100vh;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 15px;
+  
+}
+
+#nubank {
+  position: absolute;
+  left: 20%;
+  top: 35%;
+  width: 200px;
+  height: 200px;
+
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#c6 {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+  width: 200px;
+  height: 200px;
+
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#texto {
+  font-size: 2em;
+  font-variant: small-caps;
+  color: black;
+  position: absolute;
+  left: 64%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+
+}
